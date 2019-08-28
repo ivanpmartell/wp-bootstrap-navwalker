@@ -3,12 +3,12 @@
 ## Installation
 
 To install, run the following in your Sage9-based theme directory:
-'''bash
+```bash
 composer require "ivanpmartell/wp-bootstrap-navwalker"
-'''
+```
 
 In your 'header.blade.php'
-'''php
+```php
 <header class="header">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
     <div class="container">
@@ -32,9 +32,9 @@ In your 'header.blade.php'
     </div>
   </nav>
 </header>
-'''
+```
 
 You might need to add fontawesome bars for the toggler
-'''bash
+```bash
 yarn add @fortawesome/fontawesome-free-solid
-'''
+```
