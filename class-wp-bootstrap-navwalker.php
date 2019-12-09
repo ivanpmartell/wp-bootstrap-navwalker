@@ -143,7 +143,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) && class_exists( 'Walker_Nav_Men
 			// Add some additional default classes to the item.
 			$classes[] = 'menu-item-' . $item->ID;
 			$classes[] = 'nav-item';
-			$classes[] = 'col-md-6';
+			$classes[] = 'col-md-4';
 
 			// Allow filtering the classes.
 			$classes = apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args, $depth );
